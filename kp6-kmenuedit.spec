@@ -1,18 +1,18 @@
 #
 # Conditional build:
 %bcond_with	tests		# build with tests
-%define		kdeplasmaver	6.0.4
+%define		kdeplasmaver	6.0.5
 %define		qtver		5.15.2
 %define		kpname		kmenuedit
 
 Summary:	KDE menu editor
 Name:		kp6-%{kpname}
-Version:	6.0.4
+Version:	6.0.5
 Release:	1
 License:	LGPL v2.1+
 Group:		X11/Libraries
 Source0:	https://download.kde.org/stable/plasma/%{kdeplasmaver}/%{kpname}-%{version}.tar.xz
-# Source0-md5:	7d4cbdb78a545cbd5b9ffcbf1732c592
+# Source0-md5:	5cdef6d17824b2a9bfde05e217497a7b
 URL:		http://www.kde.org/
 BuildRequires:	Qt6Core-devel >= %{qtver}
 BuildRequires:	cmake >= 3.16.0
