@@ -35,6 +35,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 KDE Plasma menu editor.
 
+%description -l pl.UTF-8
+Edytor menu Plazmy.
+
 %prep
 %setup -q -n %{kpname}-%{version}
 
